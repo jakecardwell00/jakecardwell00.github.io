@@ -4,7 +4,7 @@ title: Agile Project Management
 linkTitle: Agile Management
 description: >
   A common technique for project management. One that I experienced firsthand during my internship.
-author: Tayden White
+author: Jake Cardwell
 cascade:
   - type: "blog"
 weight: 3

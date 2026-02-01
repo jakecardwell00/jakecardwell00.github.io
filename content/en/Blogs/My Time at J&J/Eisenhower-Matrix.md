@@ -4,7 +4,7 @@ title: Eisenhower Method
 linkTitle: Eisenhower Method
 description: >
   An interesting method of designating work I learned on my first day on the job.
-author: Tayden White
+author: Jake Cardwell
 resources:
   - src: 
     title: 

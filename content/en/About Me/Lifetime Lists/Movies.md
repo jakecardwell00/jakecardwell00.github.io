@@ -4,7 +4,7 @@ title: Movies
 linkTitle: Movies
 description: >
   A list of movies I've seen.
-author: Tayden White
+author: Jake Cardwell
 cascade:
   - type: "blog"
 weight: 3

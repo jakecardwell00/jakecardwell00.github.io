@@ -1,5 +1,5 @@
 ---
-title: Tayden White
+title: Jake Cardwell
 ---
 
 <head>
@@ -35,7 +35,7 @@ title: Tayden White
   </style>
 </head>
 
-{{< blocks/cover title="Tayden White" image_anchor="top" height="med" >}}
+{{< blocks/cover title="Jake Cardwell" image_anchor="top" height="med" >}}
 
 <p class="lead mt-4">
   I initially built this website during an internship at Johnson & Johnson, where I learned a great deal about data engineering, machine learning, and building websites. In the projects tab you can find “Website Tutorials,” an initiative I led during my internship to educate my coworkers about the process of building and deploying your own personal site.
@@ -68,7 +68,7 @@ title: Tayden White
         <div class="col-md-8">
           <h3 style="margin-bottom: 1rem;"><a href="https://jakecardwell.github.io/about-me/" style="color: #111111; text-decoration: underline; font-weight: bold; font-size: 1.8rem;">About Me</a></h3>
           <p style="color: #111111; font-family: Verdana, sans-serif;">
-            Hi, my name is Tayden White, I am a Junior at Purdue University pursuing dual-degrees in Computer Science and Economics. These subjects have been my forefront interests since I learned Python in 8th grade, while the stock market or some financial question would act as inspiration, coding was my medium for learning. In having opposite yet compatible proficiencies, I have gained an extremely well-rounded skillset, and taken a diverse range of opportunities in the process.
+            Hi, my name is Jake Cardwell, I am a Junior at Purdue University pursuing dual-degrees in Computer Science and Economics. These subjects have been my forefront interests since I learned Python in 8th grade, while the stock market or some financial question would act as inspiration, coding was my medium for learning. In having opposite yet compatible proficiencies, I have gained an extremely well-rounded skillset, and taken a diverse range of opportunities in the process.
           </p>
         </div>
       </div>

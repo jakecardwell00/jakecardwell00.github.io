@@ -4,7 +4,7 @@ title: Books
 linkTitle: Books
 description: >
   A list of books I've read.
-author: Tayden White
+author: Jake Cardwell
 cascade:
   - type: "blog"
 weight: 7

@@ -4,7 +4,7 @@ title: Shows
 linkTitle: Shows
 description: >
   A list of shows I've seen.
-author: Tayden White
+author: Jake Cardwell
 cascade:
   - type: "blog"
 weight: 3

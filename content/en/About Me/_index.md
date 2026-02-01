@@ -137,7 +137,7 @@ no_list: true
   <div class="contact-module">
     <img src="/images/about_me.jpg" alt="Profile Photo">
     <div class="contact-info">
-      <h2>Tayden White</h2>
+      <h2>Jake Cardwell</h2>
       <p style="font-size: 0.8rem; margin-bottom: 1.5rem;">
         <a href="mailto:tayden.white@gmail.com">tayden.white@gmail.com</a> | docu
         908-369-1626 | 
