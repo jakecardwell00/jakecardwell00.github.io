@@ -38,7 +38,7 @@ title: Jake Cardwell
 {{< blocks/cover title="Jake Cardwell" image_anchor="top" height="med" >}}
 
 <p class="lead mt-4">
-  I initially built this website during an internship at Johnson & Johnson, where I learned a great deal about data engineering, machine learning, and building websites. In the projects tab you can find “Website Tutorials,” an initiative I led during my internship to educate my coworkers about the process of building and deploying your own personal site.
+  hi my name is jake
 </p>
 
 <div class="container">
