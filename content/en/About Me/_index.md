@@ -13,6 +13,7 @@ no_list: true
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  background: url('/images/200w.gif') center/cover no-repeat fixed;
 }
 
 .contact-module {
