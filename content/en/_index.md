@@ -37,18 +37,13 @@ title: Jake Cardwell
 
 {{< blocks/cover title="Jake Cardwell" image_anchor="top" height="med" >}}
 
-<p class="lead mt-4">
-  hi my name is jake
-</p>
+
 
 <div class="container">
   <div class="row">
     <div class="col-lg-8 mx-auto text-center">
-      <a class="btn btn-lg btn-social me-3 mb-4 btn-linkedin" href="https://www.linkedin.com/in/tayden-white/" target="_blank">
+      <a class="btn btn-lg btn-social me-3 mb-4 btn-linkedin" href="https://linkedin.com/in/jake-cardwell-522634291" target="_blank">
         <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a class="btn btn-lg btn-social me-3 mb-4 btn-github" href="https://github.com/jakecardwell/" target="_blank">
-        <i class="fab fa-github"></i>
       </a>
     </div>
   </div>
