@@ -42,7 +42,7 @@ title: Jake Cardwell
 
 
 <div style="position: relative; width: 110%; height: 320px; overflow: hidden; margin-left: -5%;">
-  <img src="/images/istockphoto-1190582403-2048x2048.jpg" alt="Banner" style="position: absolute; top: 0; left: -5%; width: 110%; height: 640px; object-fit: cover; object-position: top; z-index: 0;">
+  <img src="/jakecardwell.github.io/images/istockphoto-1190582403-2048x2048.jpg" alt="Banner" style="position: absolute; top: 0; left: -5%; width: 110%; height: 640px; object-fit: cover; object-position: top; z-index: 0;">
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;">
     <h1 style="color: white; font-size: 3rem; font-weight: bold; text-shadow: 0 2px 8px rgba(0,0,0,0.5); margin-bottom: 1.5rem;">Jake Cardwell</h1>
     <a class="btn btn-lg btn-social me-3 mb-4 btn-linkedin" href="https://linkedin.com/in/jake-cardwell-522634291" target="_blank" style="margin-bottom: 0;">
@@ -54,13 +54,13 @@ title: Jake Cardwell
 
 <section style="padding: 1rem 0;">
   <div style="position: relative; overflow: hidden; margin: 0 1rem; padding: 3rem; border-radius: 1.5rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <img src="/images/section-grey.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
+    <img src="/jakecardwell.github.io/images/section-grey.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
     <div class="container" style="position: relative; z-index: 1;">
       <div class="row align-items-center">
         <div class="col-md-6">
           <!-- Removed link from About Me image -->
           <div style="display: block; width: 70%; margin: 0 auto; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
-            <img src="/images/golf_pose.jpeg" alt="About Me" style="width: 110%; height: 110%; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
+            <img src="/jakecardwell.github.io/images/golf_pose.jpeg" alt="About Me" style="width: 110%; height: 110%; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
           </div>
         </div>
         <div class="col-md-6">
@@ -81,7 +81,7 @@ title: Jake Cardwell
 <!-- Hobbies Section -->
 <section style="padding: 1rem 0;">
   <div style="position: relative; overflow: hidden; margin: 0 1rem; padding: 3rem; border-radius: 1.5rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <img src="/images/section-grey.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
+    <img src="/jakecardwell.github.io/images/section-grey.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
     <div class="container" style="position: relative; z-index: 1;">
       <!-- Hobbies Title -->
       <div class="row mb-4">
@@ -96,7 +96,7 @@ title: Jake Cardwell
           <div style="position: relative; overflow: hidden; height: 100%; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: rgba(255, 255, 255, 0.9);">
             <!-- Image -->
             <div style="display: block; width: 100%; margin: 0 auto 1.5rem; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)';">
-              <img src="/images/soccer.jpeg" alt="Braiding Anyons" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
+              <img src="/jakecardwell.github.io/images/soccer.jpeg" alt="Braiding Anyons" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
             </div>
             <!-- Title -->
             <h3 style="margin-bottom: 1rem; color: #111111; font-weight: bold; font-size: 1.5rem; text-align: center;">Soccer</h3>
@@ -113,7 +113,7 @@ title: Jake Cardwell
           <div style="position: relative; overflow: hidden; height: 100%; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: rgba(255, 255, 255, 0.9);">
             <!-- Image -->
             <div style="display: block; width: 100%; margin: 0 auto 1.5rem; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
-              <img src="/images/piano.jpg" alt="Johnson & Johnson" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
+              <img src="/jakecardwell.github.io/images/piano.jpg" alt="Johnson & Johnson" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
             </div>
             <!-- Title -->
             <h3 style="margin-bottom: 1rem; color: #111111; font-weight: bold; font-size: 1.5rem; text-align: center;">Piano</h3>
@@ -131,7 +131,7 @@ title: Jake Cardwell
           <div style="position: relative; overflow: hidden; height: 100%; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: rgba(255, 255, 255, 0.9);">
             <!-- Image -->
             <div style="display: block; width: 100%; margin: 0 auto 1.5rem; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)';">
-              <img src="/images/smash.jpeg" alt="Future of AI" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
+              <img src="/jakecardwell.github.io/images/smash.jpeg" alt="Future of AI" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
             </div>
             <!-- Title -->
             <h3 style="margin-bottom: 1rem; color: #111111; font-weight: bold; font-size: 1.5rem; text-align: center;">Collegiate Esports</h3>
