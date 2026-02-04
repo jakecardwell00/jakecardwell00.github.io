@@ -60,7 +60,7 @@ title: Jake Cardwell
         <div class="col-md-6">
           <!-- Removed link from About Me image -->
           <div style="display: block; width: 70%; margin: 0 auto; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
-            <img src="/images/golf_pose.jpeg" alt="About Me" style="width: 110%; height: 110%; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
+            <img src="/static/images/golf_pose.jpeg" alt="About Me" style="width: 110%; height: 110%; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
           </div>
         </div>
         <div class="col-md-6">
