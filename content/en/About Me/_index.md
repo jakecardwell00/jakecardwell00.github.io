@@ -8,18 +8,19 @@ cascade:
 no_list: true
 ---
 
+
 <style>
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  background: url('/images/200w.gif') center/cover no-repeat fixed;
+  background: transparent;
 }
 
   display: flex;
   align-items: flex-start;
   gap: 3rem;
-  background: #2d3748;
+  background: url('/images/200w.gif') center/cover no-repeat fixed;
   border: 2px solid #4a5568;
   border-radius: 1rem;
   padding: 2.5rem;
@@ -65,7 +66,7 @@ no_list: true
   margin-top: 2rem;
 }
 
-  background: #2d3748;
+  background: url('/images/200w.gif') center/cover no-repeat fixed;
   border: 2px solid #4a5568;
   border-radius: 1rem;
   padding: 2rem;

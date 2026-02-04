@@ -71,6 +71,9 @@ markup:
   #section: [HTML, print, RSS]
 
 params:
+  custom_css:
+    - "css/custom.css"
+
   main_menu:
     hide: ["blogs"]
   taxonomy:

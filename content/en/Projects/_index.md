@@ -93,19 +93,6 @@ cascade:
 </style>
 
 <div class="exp-proj-layout">
-  <div class="exp-proj-left">
-    <h2>Experience</h2>
-    <div class="exp-proj-list">
-      <a href="#">Rainmaker Technology Internship</a>
-      <a href="#">Purdue Space Program Hybrids Team</a>
-    </div>
-    <h2>Projects</h2>
-    <div class="exp-proj-list">
-      <a href="#">Purdue SLICE</a>
-      <a href="#">Senior Design</a>
-      <a href="#">Golf Cart</a>
-    </div>
-  </div>
   <div class="exp-proj-center">
     <h2>Experience</h2>
     <div class="exp-proj-preview">Experience Preview Image</div>
@@ -123,6 +110,7 @@ cascade:
     <div class="exp-proj-links" style="justify-content: flex-start;">
       <a class="exp-proj-link" href="#">Golf Cart</a>
     </div>
+
   </div>
 </div>
 

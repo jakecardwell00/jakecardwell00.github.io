@@ -25,75 +25,32 @@ title: Jake Cardwell
       color: #fff; /* White text */
     }
     .btn-social.btn-github {
-      background-color: #333; /* GitHub dark gray */
+      background-color: #333; /* GitHub  gray */
       color: #fff; /* White text */
     }
     .btn-social:hover {
       background-color: white; 
       color: #e00000;
     }
+    .page-content {
+      background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+      min-height: 100vh;
+      padding: 20px 0;
+    }
   </style>
 </head>
 
-{{< blocks/cover title="Jake Cardwell" image_anchor="top" height="med" >}}
 
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 mx-auto text-center">
-      <a class="btn btn-lg btn-social me-3 mb-4 btn-linkedin" href="https://linkedin.com/in/jake-cardwell-522634291" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </div>
+<div style="position: relative; width: 110%; height: 320px; overflow: hidden; margin-left: -5%;">
+  <img src="/images/istockphoto-1190582403-2048x2048.jpg" alt="Banner" style="position: absolute; top: 0; left: -5%; width: 110%; height: 640px; object-fit: cover; object-position: top; z-index: 0;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h1 style="color: white; font-size: 3rem; font-weight: bold; text-shadow: 0 2px 8px rgba(0,0,0,0.5); margin-bottom: 1.5rem;">Jake Cardwell</h1>
+    <a class="btn btn-lg btn-social me-3 mb-4 btn-linkedin" href="https://linkedin.com/in/jake-cardwell-522634291" target="_blank" style="margin-bottom: 0;">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
   </div>
 </div>
-{{< /blocks/cover >}}
 
-<section style="padding: 1rem 0;">
-  <div style="position: relative; overflow: hidden; margin: 0 1rem; padding: 3rem; border-radius: 1.5rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <img src="/images/section-grey.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
-    <div class="container" style="position: relative; z-index: 1;">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <a href="https://jakecardwell.github.io/about-me/" style="display: block; width: 70%; margin: 0 auto; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
-            <img src="/images/about_me.jpg" alt="About Me" style="width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
-          </a>
-        </div>
-        <div class="col-md-8">
-          <h3 style="margin-bottom: 1rem;"><a href="https://jakecardwell.github.io/about-me/" style="color: #111111; text-decoration: underline; font-weight: bold; font-size: 1.8rem;">About Me</a></h3>
-          <p style="color: #111111; font-family: Verdana, sans-serif;">
-            Hi, my name is Jake Cardwell, I am a Junior at Purdue University pursuing dual-degrees in Computer Science and Economics. These subjects have been my forefront interests since I learned Python in 8th grade, while the stock market or some financial question would act as inspiration, coding was my medium for learning. In having opposite yet compatible proficiencies, I have gained an extremely well-rounded skillset, and taken a diverse range of opportunities in the process.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section style="padding: 1rem 0;">
-  <div style="position: relative; overflow: hidden; margin: 0 1rem; padding: 3rem; border-radius: 1.5rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <img src="/images/section-blue.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
-    <div class="container" style="position: relative; z-index: 1;">
-      <div class="row align-items-center">
-        <div class="col-md-6 order-md-2">
-          <a href="https://jakecardwell.github.io/projects/fusion-of-permutation-defects/" style="display: block; width: 75%; margin: 0 auto; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)';">
-            <img src="/images/braiding_anyons.png" alt="Braiding Anyons" style="width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
-          </a>
-        </div>
-        <div class="col-md-6 order-md-1">
-          <h3 style="margin-bottom: 1rem;"><a href="https://jakecardwell.github.io/projects/fusion-of-permutation-defects/" style="color: #f4f6fb; text-decoration: underline; font-weight: bold; font-size: 1.8rem;">Undergraduate Research</a></h3>
-          <p style="color: #f4f6fb; font-family: Verdana, sans-serif;">
-            As an Undergraduate Research Assistant, I analyzed an algorithm for topological quantum computing that describes the fusion of "permutation defects," a type of quasiparticles whose interactions can be harnessed in implementing qubits. I also diagnosed and resolved critical edge cases through extensive casework and calculations, contributing a revised set of "fusion rules" for these particles, to be implemented in a future publication.
-          </p>
-          <p style="color: #f4f6fb; font-family: Verdana, sans-serif;">
-            I presented this research at <a href="https://jakecardwell.github.io/projects/fusion-of-permutation-defects/" target="_blank" style="color: #88ccff; text-decoration: underline;">Purdue's Summer Undergraduate Research Exposition</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section style="padding: 1rem 0;">
   <div style="position: relative; overflow: hidden; margin: 0 1rem; padding: 3rem; border-radius: 1.5rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
@@ -101,17 +58,19 @@ title: Jake Cardwell
     <div class="container" style="position: relative; z-index: 1;">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <a href="https://jakecardwell.github.io/projects/jj-internship-wrap-up/" style="display: block; width: 75%; margin: 0 auto; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
-            <img src="/images/jnj.png" alt="Johnson & Johnson" style="width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
-          </a>
+          <!-- Removed link from About Me image -->
+          <div style="display: block; width: 70%; margin: 0 auto; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
+            <img src="/images/golf_pose.jpeg" alt="About Me" style="width: 110%; height: 110%; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
+          </div>
         </div>
         <div class="col-md-6">
-          <h3 style="margin-bottom: 1rem;"><a href="https://jakecardwell.github.io/projects/jj-internship-wrap-up/" style="color: #111111; text-decoration: underline; font-weight: bold; font-size: 1.8rem;">Johnson & Johnson</a></h3>
+          <!-- Removed link from About Me title -->
+          <h3 style="margin-bottom: 1rem; color: #111111; font-weight: bold; font-size: 1.8rem;">About Me</h3>
           <p style="color: #111111; font-family: Verdana, sans-serif;">
-            In 2024, I worked at J&J as an software & data engineer, completing work on multiple teams. This involved reducing the size of an internal "generic" Machine Learning R package (GAMEs) by over 1,000 lines in a strategic refactoring designed to make the code base more modular. As well as developing an automation script in Python to generate web forms for JnJ's clients to evaluate their respective services, saving hundreds of hours of manual configuring.
+            Hi, I’m Jake Cardwell, a senior in Aerospace Engineering at Purdue University specializing in systems engineering. I’m driven by novel projects that push me beyond my comfort zone—because when you love what you’re doing, it doesn’t feel like work.
           </p>
-          <p style="color: #111111; font-family: Verdana, sans-serif;">
-            More than a year later, I work part-time as a full stack developer for JnJ, optimizing an FDA compliance analytics pipeline to support more than 60k records in HUGO static sites. Additionally, I've designed an AI Agent Workflow that dynamically generates SQL prompts for parallel delta tables to answer user queries.
+          <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 0.95rem;">
+            My long-term goal is to design and build systems that create real impact, especially in space or aviation. From UAV aerosol systems to high-altitude rockets and zero-g experiments, I thrive where innovative engineering meets tangible results.
           </p>
         </div>
       </div>
@@ -119,23 +78,94 @@ title: Jake Cardwell
   </div>
 </section>
 
+<!-- Hobbies Section -->
 <section style="padding: 1rem 0;">
   <div style="position: relative; overflow: hidden; margin: 0 1rem; padding: 3rem; border-radius: 1.5rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <img src="/images/section-blue.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
+    <img src="/images/section-grey.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
     <div class="container" style="position: relative; z-index: 1;">
-      <div class="row align-items-center">
-        <div class="col-md-6 order-md-2">
-          <a href="https://jakecardwell.github.io/projects/" style="display: block; width: 75%; margin: 0 auto; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)';">
-            <img src="/images/future_ai.jpg" alt="Future of AI" style="width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
-          </a>
+      <!-- Hobbies Title -->
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <h2 style="color: #111111; font-weight: bold; font-size: 2.5rem; margin-bottom: 2rem;">Hobbies</h2>
         </div>
-        <div class="col-md-6 order-md-1">
-          <h3 style="margin-bottom: 1rem;"><a href="https://jakecardwell.github.io/projects/" style="color: #f4f6fb; text-decoration: underline; font-weight: bold; font-size: 1.8rem;">Personal Projects</a></h3>
-          <p style="color: #f4f6fb; font-family: Verdana, sans-serif;">
-            In the Fall of my Freshman year, I conducted a social study on the sentiment of Purdue leaders on the classroom use of AI. I compared their opinions with those of other other Universities, building a model of "AI-Friendliness" to see where Purdue lies. I used python to visualize the data and create informed guesses as to how AI usage may evolve the classroom environement.
+      </div>
+      <!-- Three Columns Side by Side -->
+      <div class="row">
+        <!-- Box 1: Undergraduate Research -->
+        <div class="col-md-4 mb-4">
+          <div style="position: relative; overflow: hidden; height: 100%; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: rgba(255, 255, 255, 0.9);">
+            <!-- Image -->
+            <div style="display: block; width: 100%; margin: 0 auto 1.5rem; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)';">
+              <img src="/images/soccer.jpeg" alt="Braiding Anyons" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
+            </div>
+            <!-- Title -->
+            <h3 style="margin-bottom: 1rem; color: #111111; font-weight: bold; font-size: 1.5rem; text-align: center;">Soccer</h3>
+            <!-- Content -->
+            <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 0.95rem;">
+              Played 4 years in highschool and coming to college have continued my love of the game through intramurals. Refereed intramurals for a semester and eventually won our division senior year. 
+            </p>
+            <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 0.95rem;">
+            </p>
+          </div>
+        </div>
+        <!-- Box 2: Johnson & Johnson -->
+        <div class="col-md-4 mb-4">
+          <div style="position: relative; overflow: hidden; height: 100%; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: rgba(255, 255, 255, 0.9);">
+            <!-- Image -->
+            <div style="display: block; width: 100%; margin: 0 auto 1.5rem; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
+              <img src="/images/piano.jpg" alt="Johnson & Johnson" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: block;">
+            </div>
+            <!-- Title -->
+            <h3 style="margin-bottom: 1rem; color: #111111; font-weight: bold; font-size: 1.5rem; text-align: center;">Piano</h3>
+            <!-- Content -->
+            <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 0.95rem;">
+              Have been playing for over 8 years and continue to enjoy learning new songs. Played in concerts and recitals but currently am content with playing in the comfort of my home.
+            </p>
+            <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 0.95rem;">
+              Have a few of my songs on Amazon music where if you look up "Jake Cardwell" my album will come up.
+            </p>
+          </div>
+        </div>
+        <!-- Box 3: Personal Projects -->
+        <div class="col-md-4 mb-4">
+          <div style="position: relative; overflow: hidden; height: 100%; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: rgba(255, 255, 255, 0.9);">
+            <!-- Image -->
+            <div style="display: block; width: 100%; margin: 0 auto 1.5rem; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)';">
+              <img src="/images/smash.jpeg" alt="Future of AI" style="width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: block;">
+            </div>
+            <!-- Title -->
+            <h3 style="margin-bottom: 1rem; color: #111111; font-weight: bold; font-size: 1.5rem; text-align: center;">Collegiate Esports</h3>
+            <!-- Content -->
+            <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 0.95rem;">
+              Played on Purdue's official Smash Ultimate Collegiate Esports team for multiple semesters. Enjoy going to local tournaments and help run Purdue's local Smash Ultimate club.
+            </p>
+            <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 0.95rem;">
+              Our team got 2nd place at a 1000+ player tournament while having to beat top 50 players in the world to get there.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action Section -->
+<section style="padding: 1rem 0;">
+  <div style="position: relative; overflow: hidden; margin: 0 1rem; padding: 3rem; border-radius: 1.5rem; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="/images/section-grey.png" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; border-radius: 1.5rem;">
+    <div class="container" style="position: relative; z-index: 1;">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 1.2rem; margin-bottom: 1rem;">
+            Interested in my professional experience and technical projects?
           </p>
-          <p style="color: #f4f6fb; font-family: Verdana, sans-serif;">
-            I wrote a comprehensive research paper displaying my findings, as well as presented at Purdue's Fall Undergraduate Research Exposition to professors and students.
+          <a href="/projects/" style="display: inline-block; background-color: #0077b5; color: white; padding: 0.75rem 2rem; border-radius: 2rem; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(0, 119, 181, 0.3);" 
+             onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(0, 119, 181, 0.4)';" 
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0, 119, 181, 0.3)';">
+            View My Full Experience →
+          </a>
+          <p style="color: #111111; font-family: Verdana, sans-serif; font-size: 1rem; margin-top: 1.5rem; opacity: 0.8;">
+            Explore my internships, research projects, and technical work in detail
           </p>
         </div>
       </div>

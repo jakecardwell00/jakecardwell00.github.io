@@ -1,3 +1,11 @@
+---
+---
+/* Force the top navigation bar background to black */
+.td-navbar, .navbar, .navbar.bg-primary, .td-navbar.bg-primary, header.navbar, nav.navbar, .navbar.navbar-expand, .navbar.navbar-light, .navbar.navbar-dark {
+  background: #000 !important;
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
 .btn-lg {
     font-size: 20px; /* Increased font size */
     padding: 0;
@@ -39,30 +47,44 @@
   }
   
   body {
-    background: url('/images/200w.gif') center/cover no-repeat fixed;
-    color: var(--color-dark-text);
-  }
+    --color-bg: var(--color-dark-bg);
+    --color-text: var(--color-dark-text);
+    --color-primary: var(--color-dark-primary);
+    --color-secondary: var(--color-dark-secondary);
+    --color-muted: var(--color-dark-muted);
+    --color-link: var(--color-dark-link);
+    --color-link-hover: var(--color-dark-link-hover);
+    --color-border: var(--color-dark-border);
+}
 
 .td-home {
-  background: url("/images/200w.gif") center/cover no-repeat fixed;
+  background-color: #000;
+  background-image: url("/images/200w.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .td-home .td-main {
-  background: transparent;
+  background-color: #ffffff;
 }
 
 .home-section {
   padding: 4rem 0;
 }
 
-  background: transparent;
+.home-section--white {
+  background: url("/images/section-white.png") center/cover no-repeat;
   color: #111111;
 }
 
-  background: transparent;
+.home-section--blue {
+  background: url("/images/section-blue.png") center/cover no-repeat;
   color: #f4f6fb;
 }
 
+.home-section__image-placeholder {
   width: 100%;
   min-height: 220px;
   border: 2px dashed rgba(255, 255, 255, 0.4);
@@ -73,12 +95,13 @@
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.08);
   color: rgba(255, 255, 255, 0.8);
 }
 
+.home-section--white .home-section__image-placeholder {
   border-color: rgba(0, 0, 0, 0.15);
-  background: transparent;
+  background: rgba(0, 0, 0, 0.03);
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -86,4 +109,9 @@
   font-size: 1.05rem;
   line-height: 1.7;
   margin-bottom: 0;
+}
+
+/* TEST */
+html, body {
+  background-color: #ff0000 !important;
 }

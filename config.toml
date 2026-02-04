@@ -29,23 +29,12 @@ title = "My New Hugo Site"
 
 [menu]
   [[menu.main]]
-    identifier = "audio"
-    name = "Audio"
-    url = "/audio/"
-    weight = 3  # Adjust the weight to control the position in the menu
-    [menu]
-  [[menu.main]]
-    name = "Docsy & Hugo Website"
-    url = "/path/to/page/"
-    weight = 10
-  [menu]
-  [[menu.main]]
     identifier = "about"
-    name = "About"
-    url = "/about/"
+    name = "About Me"
+    url = "/about-me/"
     weight = 10
   [[menu.main]]
-    identifier = "coding-projects"
-    name = "Coding Projects"
-    url = "/coding-projects/"
+    identifier = "experience-projects"
+    name = "Experience / Projects"
+    url = "/projects/"
     weight = 20
