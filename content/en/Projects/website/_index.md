@@ -1,9 +1,11 @@
 ---
-title: Website Tutorials
+title: Projects
 description: >
-  A series of tutorials related to Hugo, Docsy, and GitHub. If you follow, along by the end of it you should have a fully working website!
+  Personal and research based projects that have spearheaded my understanding of Engineering.
 date: 2017-01-05
 weight: 1
 cascade:
   - type: "docs"
 ---
+
+Below are the links for my projects
