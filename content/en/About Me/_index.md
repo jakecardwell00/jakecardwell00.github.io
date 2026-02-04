@@ -1,8 +1,9 @@
 ---
-title: About Me
-linkTitle: About Me
+title: Resume / Contact
+linkTitle: Resume / Contact
 url: "/about-me/"
 menu: {main: {weight: 20}}
+layout: single
 cascade:
   - type: "docs"
 no_list: true
@@ -17,15 +18,7 @@ no_list: true
   background: transparent;
 }
 
-  display: flex;
-  align-items: flex-start;
-  gap: 3rem;
-  background: url('/images/200w.gif') center/cover no-repeat fixed;
-  border: 2px solid #4a5568;
-  border-radius: 1rem;
-  padding: 2.5rem;
-  margin-bottom: 3rem;
-}
+
 
 .contact-module img {
   width: 280px;
@@ -64,14 +57,6 @@ no_list: true
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 2rem;
-}
-
-  background: url('/images/200w.gif') center/cover no-repeat fixed;
-  border: 2px solid #4a5568;
-  border-radius: 1rem;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
 }
 
 .experience-card h4 {
